@@ -21,10 +21,14 @@
     <!-- KEYWORDS     -->
     <meta
       name="keywords"
-      content="redesSociales, instagram, facebook, telefono, whatsapp, tripadvisor">
+      content="redesSociales, instagram, facebook, telefono, whatsapp, tripadvisor"
+    />
 
-      <!-- DESCRIPTION -->
-<meta name="description" content="Contactanos a través de los distintos contactos digitales para ayudarte con más información">
+    <!-- DESCRIPTION -->
+    <meta
+      name="description"
+      content="Contactanos a través de los distintos contactos digitales para ayudarte con más información"
+    />
 
     <!-- MI CSS   -->
     <link rel="stylesheet" href="/css/style.css" />
@@ -32,7 +36,7 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <header>
+    <header class="modificarNavbar">
       <nav class="navbar navbar-expand-lg bg-secondary bg-gradient">
         <div class="container-fluid">
           <a class="navbar-brand text-white tipografia" href="../index.html"
@@ -66,7 +70,68 @@
         </div>
       </nav>
     </header>
-    <h1>Vuela con la mente</h1>
+
+    <main class="modificarTamañoMain">
+      <h1>Vuela con la mente</h1>
+
+      <!-- FORMULARIO -->
+      
+      
+      <div class="container">
+        <form action="" class="row g-3 mt-3">
+          <div class="col-6">
+            <label for="emailInput" class="form-label">Email</label>
+            <input type="email" class="form-control" id="emailInput"placeholder="Acá el email"/>
+          </div>
+
+          <div class="col-6">
+            <label for="passwordInput" class="form-label">Password</label>
+            <input type="password" class="form-control" id="passwordInput"placeholder="Escribe la contraseña"/>
+          </div>
+
+            <div class="col-12">  
+              <label for="direccionInput" class="form-label">Dirección</label>
+            <input type="text" class="form-control" id="direccionInput"placeholder="Dirección"/>
+
+            </div>
+
+            <div class="col-6">
+              <label for="ciudadInput" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="ciudadInput"placeholder="Ciudad"/>
+            </div>
+            <div class="col-6">
+              <label for="paisInput" class="form-label">País</label>
+              <input type="text" class="form-control" id="paisInput"placeholder="País"/>
+
+            </div>
+            <div class="col-12">  
+              <div class="form-check">
+                <label for="checkTerms" class="form-check-label">Acepto los terminos</label>
+                <input type="checkbox" id="checkTerms" class="form-check-input" />
+              </div>
+
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary"> 
+                  Registrate
+                </button>
+                
+              </div>
+            
+
+            </div>
+
+        </form>
+      </div>
+    </main>
+
+     <!-- FOOTER -->
+     <footer>
+      <div class="row bg-secondary p-5 text-white">
+        <p class="col">Contactanos</p>
+        <p class="col">CopyRight del viaje</p>
+        <p class="col">Redes Sociales</p>
+      </div>
+    </footer>
 
     <!-- ESTE SCRIPT SIEMPRE DE ÚLTIMO PEGADO A LA ETIQUETA DE CIERRE DE BODY -->
     <script

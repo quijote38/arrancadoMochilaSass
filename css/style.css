@@ -31,3 +31,9 @@
 
 #galeria img:hover {
   border: 5px solid white; }
+
+.modificarNavbar {
+  height: 15vh; }
+
+.modificarTamañoMain {
+  height: 70vh; }
