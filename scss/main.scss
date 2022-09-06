@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .h1 {
+    padding: 15px;
+    display: flex;
+  }
+  
+  .tamaño {
+    height: 790px;
+  }
+  
+  .tipografia {
+    font-family: cursive;
+   
+  }
+  
+  .tipografia:hover{
+      color: #918c8c;
+  }
+  
+  .footer{ 
+      /* Va así: hacía donde, color1, color2 */
+      background-image: linear-gradient(to left, #808080, #918c8c);
+  
+  }
+  
+  /* PAGINA DE FOTOS */
+  
+  #galeria .col-lg-4 {
+    padding: 25px;
+  }
+  
+  #galeria img{
+   width: 100%;
+   height: 300px;
+  }
+  
+  #galeria img:hover{
+    border: 5px solid white ;
+  }
