@@ -1,0 +1,15 @@
+
+// ESTILO H1 EXTEND
+%estiloHuno{
+    color: $grisH ;
+    font-family: $tipoHuno;
+    text-align: center;
+    padding: 14px;
+    &:hover {
+        color: rgb(88, 78, 78);
+        box-shadow: inset 100px 0 0 0 var;
+      }
+}
+
+//MIXTIN
+

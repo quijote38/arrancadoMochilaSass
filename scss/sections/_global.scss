@@ -4,12 +4,6 @@
     box-sizing: border-box;
   }
 
-  // nav{
-  //   height: 15vh;
-  // }
-
-  // main{
-  //   height: 75vh;
-  // }
-  
-  
+h1{
+ @extend %estiloHuno;
+}
