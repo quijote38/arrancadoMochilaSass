@@ -4,6 +4,13 @@
   }
   
 
+
+.variableTexto {
+  @include estiloTexto(50px, $bg-Hea);
+}
+
+
+
 .textIndex{
     max-width: 100vw;
     display: flex;
