@@ -60,3 +60,10 @@ footer {
   display: flex;
   flex-wrap: wrap;
   align-items: center; }
+
+.colorBoton {
+  background-color: #264653;
+  color: white; }
+
+.row {
+  justify-content: space-evenly; }
