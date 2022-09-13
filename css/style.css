@@ -45,6 +45,10 @@ footer {
 .modificarTamañoMain {
   height: 70vh; }
 
+.colorBoton {
+  background-color: #264653;
+  color: white; }
+
 .tamaño {
   height: 790px; }
 
@@ -67,3 +71,6 @@ footer {
 
 .row {
   justify-content: space-evenly; }
+
+.margenInferior {
+  margin-bottom: 30px; }
