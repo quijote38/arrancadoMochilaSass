@@ -28,6 +28,10 @@ footer {
   /* Va así: hacía donde, color1, color2 */
   background-image: linear-gradient(to left, #808080, #918c8c); }
 
+.errorFooter {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0; }
+
 /* PAGINA DE FOTOS */
 #galeria .col-lg-4 {
   padding: 25px; }
