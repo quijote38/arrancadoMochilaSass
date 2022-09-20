@@ -25,8 +25,16 @@ h1 {
   color: #918c8c; }
 
 footer {
+  display: flex;
   /* Va así: hacía donde, color1, color2 */
   background-image: linear-gradient(to left, #808080, #918c8c); }
+
+.bg-secondary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around; }
 
 .errorFooter {
   --bs-gutter-x: 0;
@@ -48,6 +56,9 @@ footer {
 
 .modificarTamañoMain {
   height: 70vh; }
+
+.modicarTamañoFooter {
+  height: 15vh; }
 
 .colorBoton {
   background-color: #264653;
