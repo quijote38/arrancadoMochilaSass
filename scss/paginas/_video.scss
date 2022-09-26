@@ -1,5 +1,5 @@
 
-.container {
+.contenedor {
     display: grid;
     grid-auto-columns: 1fr;
     grid-template-columns: 1fr;
@@ -22,7 +22,7 @@
   grid-gap: 10px; 
   }
   
-   .container iframe{
+   .contenedor iframe{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -31,41 +31,41 @@
     
    }
   
-  .container .video1 {
+  .contenedor .video1 {
     grid-area: video1; }
   
-  .container .video2 {
+  .contenedor .video2 {
     grid-area: video2; }
   
-  .container .video3 {
+  .contenedor .video3 {
     grid-area: video3; }
   
-  .container .video4 {
+  .contenedor .video4 {
     grid-area: video4; }
   
-  .container .video5 {
+  .contenedor .video5 {
     grid-area: video5; }
   
-  .container .video6 {
+  .contenedor .video6 {
     grid-area: video6; }
   
-  .container .video7 {
+  .contenedor .video7 {
     grid-area: video7; }
   
-  .container .video8 {
+  .contenedor .video8 {
     grid-area: video8; }
   
-  .container .video9 {
+  .contenedor .video9 {
     grid-area: video9; }
   
-  .container .video10 {
+  .contenedor .video10 {
     grid-area: video10; }
   
-  .container .video11 {
+  .contenedor .video11 {
     grid-area: video11; }
   
-  .container .video12 {
+  .contenedor .video12 {
     grid-area: video12; }
-  
-  
+
+
   
