@@ -36,6 +36,9 @@ footer {
   align-items: center;
   justify-content: space-around; }
 
+.espacioFooter {
+  display: flex; }
+
 .errorFooter {
   --bs-gutter-x: 0;
   --bs-gutter-y: 0; }

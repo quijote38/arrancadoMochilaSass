@@ -1,8 +1,9 @@
 footer{ 
     display: flex;
     
+    
     /* Va así: hacía donde, color1, color2 */
- background-image: $bg-fot;
+    background-image: $bg-fot;
 
 
    }
@@ -14,6 +15,10 @@ footer{
     align-items: center;
     
     justify-content: space-around;
+ }
+
+ .espacioFooter{
+  display: flex;
  }
 
 .errorFooter {
