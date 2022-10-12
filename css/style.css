@@ -43,6 +43,10 @@ footer {
   --bs-gutter-x: 0;
   --bs-gutter-y: 0; }
 
+.row1 {
+  display: flex;
+  justify-items: flex-end; }
+
 /* PAGINA DE FOTOS */
 #galeria .col-lg-4 {
   padding: 25px; }

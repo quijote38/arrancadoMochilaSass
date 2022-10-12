@@ -13,6 +13,7 @@ footer{
     background-color: rgba(var(--bs-secondary-rgb),var(--bs-bg-opacity))!important;
     width: 100vw;
     align-items: center;
+
     
     justify-content: space-around;
  }
@@ -24,5 +25,10 @@ footer{
 .errorFooter {
     --bs-gutter-x: 0;
     --bs-gutter-y: 0;
+
 }
 
+.row1{
+    display: flex;
+    justify-items: flex-end;
+}
