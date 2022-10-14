@@ -44,15 +44,23 @@ footer {
   --bs-gutter-y: 0; }
 
 /* PAGINA DE FOTOS */
-#galeria .col-lg-4 {
-  padding: 25px; }
+img {
+  width: 100%; }
 
-#galeria img {
-  width: 100%;
-  height: 300px; }
+.row2 {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap; }
 
-#galeria img:hover {
-  border: 5px solid white; }
+.column {
+  flex: 25%;
+  padding: 5px; }
+
+.column img {
+  margin-top: 5px; }
+
+.tamañoTexto {
+  font-size: 15px; }
 
 .modificarNavbar {
   height: 15vh; }
@@ -205,3 +213,23 @@ footer {
     grid-area: video11; }
   .video12 {
     grid-area: video12; } }
+
+@media (min-width: 320px) {
+  .column {
+    flex: 100%; } }
+
+@media (min-width: 425px) {
+  .column {
+    flex: 50%; } }
+
+@media (min-width: 768px) {
+  .tamañoTexto {
+    font-size: 25px;
+    width: 100%; } }
+
+@media (min-width: 1024px) {
+  .column {
+    flex: 25%; }
+  .tamañoTexto {
+    font-size: 30px;
+    width: 100%; } }

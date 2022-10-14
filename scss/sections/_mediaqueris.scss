@@ -112,7 +112,42 @@
   }
 
  
+
+// FOTOS
+
+@media (min-width: 320px){
+
+  .column{
+    flex: 100%;
+  }
+}
+
+@media (min-width: 425px){
+
+  .column{
+    flex: 50%;
+  }
+}
+
+@media (min-width: 768px){
+
+  .tamañoTexto{
+    font-size: 25px;
+    width: 100%;
+  }
+}
   
+@media (min-width: 1024px){
+
+  .column{
+    flex: 25%;
+  }
+
+  .tamañoTexto{
+    font-size: 30px;
+    width: 100%;
+  }
+}
   
   
   
